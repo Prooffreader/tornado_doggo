@@ -10,7 +10,7 @@ Very simple, usage is:
 
     python3 doggo.py <port number>
 
-make sure your port is open and you have permissions, etc. The `requirements.txt` file lists the libraries you need; `requests` is only for the test program, `apitest.py`, which also needs the environment variable `READY_TEST_BASE_URL` set to the URL with port number.
+make sure your port is open and you have permissions, etc. The `requirements.txt` file lists the packages you need; `requests` is only for the test program, `apitest.py`, which also needs the environment variable `READY_TEST_BASE_URL` set to the URL with port number.
 
 The dataset is in MongoDB; its downloading and installation instructions are in the `/source_data` folder, as is the downloaded CSV itself (a bit more than 5 MB) so you can just use that if you want.
 
